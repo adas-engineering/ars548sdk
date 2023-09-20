@@ -1,0 +1,12 @@
+#projectalign {
+    display: none;
+}
+
+#projectlogo {
+    text-align: left;
+}
+
+#projectlogo img {
+    width: 50%;
+    height: auto;
+}

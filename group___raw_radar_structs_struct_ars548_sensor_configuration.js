@@ -1,0 +1,25 @@
+var group___raw_radar_structs_struct_ars548_sensor_configuration =
+[
+    [ "CycleTime", "group___raw_radar_structs.html#a8d7d52f9f89db0f72d8742de90f418d4", null ],
+    [ "FrequencySlot", "group___raw_radar_structs.html#a76bd602ae8ae555032f261c9b036537b", null ],
+    [ "HCC", "group___raw_radar_structs.html#af872928c5533c55276a5a0953ffb7152", null ],
+    [ "Height", "group___raw_radar_structs.html#a3e2d4e4c176047747a91dca9e9e70e78", null ],
+    [ "Lateral", "group___raw_radar_structs.html#a132e71ea9c46cecb83fa564430718768", null ],
+    [ "Length", "group___raw_radar_structs.html#a04cdf90a6fd38dd0cfdff184ded62398", null ],
+    [ "Longitudinal", "group___raw_radar_structs.html#a651b7ce9c16a1bbb095a0edb5adb4c0e", null ],
+    [ "MaximumDistance", "group___raw_radar_structs.html#a3b4e9861ad73fe3ca0994a2db0825bec", null ],
+    [ "NewNetworkConfiguration", "group___raw_radar_structs.html#aeca52eacd6a56837baab1a0c6c7eb26a", null ],
+    [ "NewRadarParameters", "group___raw_radar_structs.html#aa6cbdd2b9dc1d4e09a9b5c7385ca8f57", null ],
+    [ "NewSensorMounting", "group___raw_radar_structs.html#ace41d39e101725d5494a7f286b702c20", null ],
+    [ "NewVehicleParameters", "group___raw_radar_structs.html#aad9f38c8e3620dad211696500037cace", null ],
+    [ "Pitch", "group___raw_radar_structs.html#a29cf3b74a9742b41afdd66a17816bcc1", null ],
+    [ "PlugOrientation", "group___raw_radar_structs.html#a9cc5902bb3ebc505de64e1328233f4fa", null ],
+    [ "Powersave_Standstill", "group___raw_radar_structs.html#ab6af46f81b12bc7a23e09ec32e6bb508", null ],
+    [ "SensorIPAddress_0", "group___raw_radar_structs.html#abe6883636c30ef4e9d63b559af0db97c", null ],
+    [ "SensorIPAddress_1", "group___raw_radar_structs.html#a547d838c5957a6be6e6119a98f221db6", null ],
+    [ "TimeSlot", "group___raw_radar_structs.html#abe194742a97cc81508a9be22c1f86991", null ],
+    [ "Vertical", "group___raw_radar_structs.html#a12c162c608e77ef8886a6abec4248b74", null ],
+    [ "Wheelbase", "group___raw_radar_structs.html#a983644885e5d8e254c558074ee0fe35d", null ],
+    [ "Width", "group___raw_radar_structs.html#adeb0edcb6be41df38617e56a00c5fce6", null ],
+    [ "Yaw", "group___raw_radar_structs.html#a6b3788545198142f9602ef3c26c00a7a", null ]
+];
