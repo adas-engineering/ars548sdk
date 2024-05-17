@@ -1,15 +1,9 @@
 var searchData=
 [
-  ['radar_20data_0',['Receiving Raw Radar Data',['../index.html#autotoc_md1',1,'']]],
-  ['radar_20data_20callback_1',['Raw Radar Data Callback',['../index.html#autotoc_md2',1,'']]],
-  ['radar_20data_20structures_2',['Raw Radar Data Structures',['../group___raw_radar_structs.html',1,'']]],
-  ['radarmessagecallback_3',['RadarMessageCallback',['../_ars548_dll_8h.html#a0e4466a47a02685878f4c224343ded47',1,'Ars548Dll.h']]],
-  ['raw_20radar_20data_4',['Receiving Raw Radar Data',['../index.html#autotoc_md1',1,'']]],
-  ['raw_20radar_20data_20callback_5',['Raw Radar Data Callback',['../index.html#autotoc_md2',1,'']]],
-  ['raw_20radar_20data_20structures_6',['Raw Radar Data Structures',['../group___raw_radar_structs.html',1,'']]],
-  ['rcs_7',['RCS',['../group___parsed_structs.html#acfd5cf7af3009d44fd98ae5bb75e3b5b',1,'Target']]],
-  ['receiving_20parsed_20target_20data_20from_20sdk_8',['Receiving Parsed Target Data from SDK',['../index.html#autotoc_md3',1,'']]],
-  ['receiving_20raw_20radar_20data_9',['Receiving Raw Radar Data',['../index.html#autotoc_md1',1,'']]],
-  ['relase_20notes_10',['Relase Notes',['../_s_d_k__contents.html#autotoc_md17',1,'']]],
-  ['run_11',['Build and Run',['../_s_d_k__contents.html#autotoc_md12',1,'']]]
+  ['quaifieraccelerationlongitudinal_0',['QuaifierAccelerationLongitudinal',['../group___raw_radar_structs.html#adef7baaff492021cc444ac8219eec139',1,'AccelerationLongitudinalCog']]],
+  ['qualifieraccelerationlateral_1',['QualifierAccelerationLateral',['../group___raw_radar_structs.html#a7dee2c10ee7925962bfff9c3e20b3e37',1,'AccelerationLateralCog']]],
+  ['qualifiercharacteristicspeed_2',['QualifierCharacteristicSpeed',['../group___raw_radar_structs.html#a8235df269ec88edd8d50b16d2b2d9be9',1,'CharacteristicSpeed']]],
+  ['qualifiersteeringanglefrontaxle_3',['QualifierSteeringAngleFrontAxle',['../group___raw_radar_structs.html#aeed54a3703f5aae5103fd72957e79c13',1,'SteeringAngleFrontAxle']]],
+  ['qualifiervelocityvehicle_4',['QualifierVelocityVehicle',['../group___raw_radar_structs.html#a4555c830cccb24badbe16b8cf6c896e4',1,'VelocityVehicle']]],
+  ['qualifieryawrate_5',['QualifierYawRate',['../group___raw_radar_structs.html#a2dd27ef2fcdd9a9aacf449cbe06eaae9',1,'YawRate']]]
 ];

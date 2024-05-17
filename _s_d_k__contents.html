@@ -100,11 +100,13 @@ Directory structure</h1>
 <div class="line">   ├─Doc</div>
 <div class="line">   │  ├─html</div>
 <div class="line">   │  └─Ars548SDK.chm</div>
-<div class="line">   └─Samples</div>
+<div class="line">   └─Demos</div>
+<div class="line">       ├─sdk</div>
 <div class="line">       ├─ars548_demo</div>
 <div class="line">       ├─ars548_qt_demo</div>
 <div class="line">       ├─ars548_qt_demo_filter_config</div>
-<div class="line">       └─ars548_qt_demo_sensor_config</div>
+<div class="line">       ├─ars548_qt_demo_sensor_config</div>
+<div class="line">       └─ars548_qt_demo_simulation</div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md5"></a>
 Doc</h2>
 <h3><a class="anchor" id="autotoc_md6"></a>
@@ -114,19 +116,19 @@ html</h3>
 Ars548SDK.chm</h3>
 <p>This is the help file format under Windows. It is a self-contained file that packages all the content of HTML documents together, and you can search the documentation contents through indexes.</p>
 <h2><a class="anchor" id="autotoc_md8"></a>
-Samples</h2>
+Demos</h2>
 <p>This directory contains some example programs and tutorials.</p>
 <blockquote class="doxtable">
 <p>&zwj;NOTE: The programs in this directory are meant for demonstration purposes only. This means that they are built to be readable rather than reliable or functional. </p>
 </blockquote>
-<p>These code samples are written in C++, and users can compile them on the Linux platform with x86 architecture using CMake and GCC build tools.</p>
+<p>These demos are written in C++, and users can compile them on the Linux platform with x86 architecture using CMake and GCC build tools.</p>
 <h3><a class="anchor" id="autotoc_md9"></a>
 How to build</h3>
 <h4><a class="anchor" id="autotoc_md10"></a>
 Install the compiler</h4>
-<p>On my Ubuntu 18.04, I installed the C++ compiler through the following command: </p><pre class="fragment">sudo apt-get install build-essential
-</pre><p> And then you should install CMake: </p><pre class="fragment">sudo apt-get install cmake
-</pre><p> Some of the code samples use Qt5, so in order to run those examples, your needs to have the relevant Qt5 development libraries and components installed. </p><pre class="fragment">apt install qt5-default
+<p>On my Ubuntu 18.04, I installed the C++ compiler through the following command: </p><pre class="fragment">sudo apt install build-essential
+</pre><p> And then you should install CMake: </p><pre class="fragment">sudo apt install cmake
+</pre><p> Some of the code demos use Qt5, so in order to run those examples, your needs to have the relevant Qt5 development libraries and components installed. </p><pre class="fragment">sudo apt install qt5-default
 </pre> <h4><a class="anchor" id="autotoc_md11"></a>
 System component version</h4>
 <p>The versions of the system components that the code passed testing with are as follows:</p>
@@ -142,16 +144,19 @@ System component version</h4>
 </table>
 <h4><a class="anchor" id="autotoc_md12"></a>
 Build and Run</h4>
-<p>The building methods for all of these samples are the same. Using ars548_demo as an example.</p>
-<p>Enter the directory of the sample: </p><pre class="fragment">cd ars548_demo
+<p>The building methods for all of these demos are the same. Using ars548_demo as an example.</p>
+<p>Enter the directory of the demo: </p><pre class="fragment">cd ars548_demo
 </pre><p> Create a build directory and navigate into it:</p>
 <div class="fragment"><div class="line">mkdir build</div>
 <div class="line">cd build</div>
 </div><!-- fragment --><p>Build:</p>
 <div class="fragment"><div class="line">cmake ..</div>
 <div class="line">make</div>
-</div><!-- fragment --><p>Finally, try to use the newly built Tutorial with these commands: </p><pre class="fragment">./ars548_demo
-</pre> <h3><a class="anchor" id="autotoc_md13"></a>
+</div><!-- fragment --><p>Finally, try to use the newly built Tutorial with these commands: </p><pre class="fragment">sudo ./ars548_demo
+</pre> <blockquote class="doxtable">
+<p>&zwj;NOTE: Since the SDK needs to create raw sockets, it requires root privileges. Append 'sudo' before the command line when running any demo programs. </p>
+</blockquote>
+<h3><a class="anchor" id="autotoc_md13"></a>
 ars548_demo</h3>
 <p>This is a console program that demonstrates the basic usage of the SDK, including initialization, data reception, data display, and sending sensor configurations and filter settings.</p>
 <p>This program requires two command line arguments to run, which are the IP address of the local NIC (Network Interface Card) and the IP address of the radar. After the program starts running, it will start receiving and outputting the target information sent by the radar to the screen.</p>
@@ -172,9 +177,18 @@ ars548_qt_demo_filter_config</h3>
 <h3><a class="anchor" id="autotoc_md16"></a>
 ars548_qt_demo_sensor_config</h3>
 <p>This is a graphical interface example program based on Qt5, demonstrating how to receive and display radar filter configuration information and allowing modifications to a portion of the filter data.</p>
-<h1><a class="anchor" id="autotoc_md17"></a>
+<h3><a class="anchor" id="autotoc_md17"></a>
+ars548_qt_demo_simulation</h3>
+<p>This is a graphical interface example program based on Qt5, demonstrating how to send vehicle dynamics parameters (or vehicle state simulation information) to the radar, including velocity, driving direction, yaw rate, lateral or longitudinal acceleration, etc.</p>
+<h1><a class="anchor" id="autotoc_md18"></a>
 Relase Notes</h1>
-<h2><a class="anchor" id="autotoc_md18"></a>
+<h2><a class="anchor" id="autotoc_md19"></a>
+2024-03-22 v1.2.0</h2>
+<p>New recording functions.</p>
+<h2><a class="anchor" id="autotoc_md20"></a>
+2024-02-28 v1.1.0</h2>
+<p>New ars548_qt_demo_simulation.</p>
+<h2><a class="anchor" id="autotoc_md21"></a>
 2023-09-18 v1.0.0</h2>
 <p>Initial release. </p>
 </div></div><!-- contents -->
@@ -183,7 +197,7 @@ Relase Notes</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Sep 20 2023 for Wellcome to ARS548 SDK by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Fri May 17 2024 for Wellcome to ARS548 SDK by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

@@ -38,7 +38,7 @@ var NAVTREE =
           [ "html", "_s_d_k__contents.html#autotoc_md6", null ],
           [ "Ars548SDK.chm", "_s_d_k__contents.html#autotoc_md7", null ]
         ] ],
-        [ "Samples", "_s_d_k__contents.html#autotoc_md8", [
+        [ "Demos", "_s_d_k__contents.html#autotoc_md8", [
           [ "How to build", "_s_d_k__contents.html#autotoc_md9", [
             [ "Install the compiler", "_s_d_k__contents.html#autotoc_md10", null ],
             [ "System component version", "_s_d_k__contents.html#autotoc_md11", null ],
@@ -47,11 +47,14 @@ var NAVTREE =
           [ "ars548_demo", "_s_d_k__contents.html#autotoc_md13", null ],
           [ "ars548_qt_demo", "_s_d_k__contents.html#autotoc_md14", null ],
           [ "ars548_qt_demo_filter_config", "_s_d_k__contents.html#autotoc_md15", null ],
-          [ "ars548_qt_demo_sensor_config", "_s_d_k__contents.html#autotoc_md16", null ]
+          [ "ars548_qt_demo_sensor_config", "_s_d_k__contents.html#autotoc_md16", null ],
+          [ "ars548_qt_demo_simulation", "_s_d_k__contents.html#autotoc_md17", null ]
         ] ]
       ] ],
-      [ "Relase Notes", "_s_d_k__contents.html#autotoc_md17", [
-        [ "2023-09-18 v1.0.0", "_s_d_k__contents.html#autotoc_md18", null ]
+      [ "Relase Notes", "_s_d_k__contents.html#autotoc_md18", [
+        [ "2024-03-22 v1.2.0", "_s_d_k__contents.html#autotoc_md19", null ],
+        [ "2024-02-28 v1.1.0", "_s_d_k__contents.html#autotoc_md20", null ],
+        [ "2023-09-18 v1.0.0", "_s_d_k__contents.html#autotoc_md21", null ]
       ] ]
     ] ],
     [ "Topics", "topics.html", "topics" ],
@@ -79,7 +82,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_ars548_dll_8h.html",
-"group___raw_radar_structs.html#a9fba7192f9b08ac3d8b7288e21e1b858"
+"group___raw_radar_structs.html#a7c7b4e82c5f50871f2ac2dfbb7204761"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

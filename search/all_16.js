@@ -1,6 +1,12 @@
 var searchData=
 [
-  ['wellcome_20to_20ars548_20sdk_0',['Wellcome to ARS548 SDK',['../index.html',1,'']]],
-  ['wheelbase_1',['wheelbase',['../group___raw_radar_structs.html#ad88920cb031e08ab8e6fe865e9179170',1,'Ars548SensorStatusOlder::Wheelbase'],['../group___raw_radar_structs.html#a7c0d039f38149279c99bee23e77947b0',1,'Ars548SensorStatus::Wheelbase'],['../group___raw_radar_structs.html#a983644885e5d8e254c558074ee0fe35d',1,'Ars548SensorConfiguration::Wheelbase']]],
-  ['width_2',['width',['../group___raw_radar_structs.html#a8d03cc30b28b05ece7592b016bd8e893',1,'Ars548SensorStatusOlder::Width'],['../group___raw_radar_structs.html#a38e3cc38a028f1f081da6e69d47f4e5e',1,'Ars548SensorStatus::Width'],['../group___raw_radar_structs.html#adeb0edcb6be41df38617e56a00c5fce6',1,'Ars548SensorConfiguration::Width']]]
+  ['v1_200_200_0',['2023-09-18 v1.0.0',['../_s_d_k__contents.html#autotoc_md21',1,'']]],
+  ['v1_201_200_1',['2024-02-28 v1.1.0',['../_s_d_k__contents.html#autotoc_md20',1,'']]],
+  ['v1_202_200_2',['2024-03-22 v1.2.0',['../_s_d_k__contents.html#autotoc_md19',1,'']]],
+  ['vehicledynamicparams_3',['VehicleDynamicParams',['../struct_vehicle_dynamic_params.html',1,'']]],
+  ['velocityvehicle_4',['velocityvehicle',['../group___raw_radar_structs.html#struct_velocity_vehicle',1,'VelocityVehicle'],['../group___raw_radar_structs.html#a7be3e92a4e390ccc940f2bf2bae6d3d4',1,'VelocityVehicle::VelocityVehicle()'],['../struct_vehicle_dynamic_params.html#a38a3505f84ae986e16240bc9e46c6c8f',1,'VehicleDynamicParams::VelocityVehicle']]],
+  ['velocityvehicle_5finvalidflag_5',['VelocityVehicle_InvalidFlag',['../group___raw_radar_structs.html#acaa724fd874bf14dce2ba6bba7900c68',1,'VelocityVehicle']]],
+  ['velocityvehicleeventdataqualifier_6',['VelocityVehicleEventDataQualifier',['../group___raw_radar_structs.html#adf8e385920fbd1af3b4c7259fc67c5cd',1,'VelocityVehicle']]],
+  ['version_7',['System component version',['../_s_d_k__contents.html#autotoc_md11',1,'']]],
+  ['vertical_8',['vertical',['../group___raw_radar_structs.html#a6f6f51b9d859f3db3f38076e6d3bcfc0',1,'Ars548SensorStatusOlder::Vertical'],['../group___raw_radar_structs.html#a5d5308dbb05bd3d15de8254d07b390e8',1,'Ars548SensorStatus::Vertical'],['../group___raw_radar_structs.html#a12c162c608e77ef8886a6abec4248b74',1,'Ars548SensorConfiguration::Vertical']]]
 ];

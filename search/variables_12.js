@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['wheelbase_0',['wheelbase',['../group___raw_radar_structs.html#ad88920cb031e08ab8e6fe865e9179170',1,'Ars548SensorStatusOlder::Wheelbase'],['../group___raw_radar_structs.html#a7c0d039f38149279c99bee23e77947b0',1,'Ars548SensorStatus::Wheelbase'],['../group___raw_radar_structs.html#a983644885e5d8e254c558074ee0fe35d',1,'Ars548SensorConfiguration::Wheelbase']]],
-  ['width_1',['width',['../group___raw_radar_structs.html#a8d03cc30b28b05ece7592b016bd8e893',1,'Ars548SensorStatusOlder::Width'],['../group___raw_radar_structs.html#a38e3cc38a028f1f081da6e69d47f4e5e',1,'Ars548SensorStatus::Width'],['../group___raw_radar_structs.html#adeb0edcb6be41df38617e56a00c5fce6',1,'Ars548SensorConfiguration::Width']]]
+  ['velocityvehicle_0',['velocityvehicle',['../group___raw_radar_structs.html#a7be3e92a4e390ccc940f2bf2bae6d3d4',1,'VelocityVehicle::VelocityVehicle()'],['../struct_vehicle_dynamic_params.html#a38a3505f84ae986e16240bc9e46c6c8f',1,'VehicleDynamicParams::VelocityVehicle']]],
+  ['velocityvehicle_5finvalidflag_1',['VelocityVehicle_InvalidFlag',['../group___raw_radar_structs.html#acaa724fd874bf14dce2ba6bba7900c68',1,'VelocityVehicle']]],
+  ['velocityvehicleeventdataqualifier_2',['VelocityVehicleEventDataQualifier',['../group___raw_radar_structs.html#adf8e385920fbd1af3b4c7259fc67c5cd',1,'VelocityVehicle']]],
+  ['vertical_3',['vertical',['../group___raw_radar_structs.html#a6f6f51b9d859f3db3f38076e6d3bcfc0',1,'Ars548SensorStatusOlder::Vertical'],['../group___raw_radar_structs.html#a5d5308dbb05bd3d15de8254d07b390e8',1,'Ars548SensorStatus::Vertical'],['../group___raw_radar_structs.html#a12c162c608e77ef8886a6abec4248b74',1,'Ars548SensorConfiguration::Vertical']]]
 ];

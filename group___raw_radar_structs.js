@@ -261,5 +261,53 @@ var group___raw_radar_structs =
       [ "FilterReset", "group___raw_radar_structs.html#aec1f3142c1911f0c74ecaf45dc743e41", null ],
       [ "NumberOfFilters", "group___raw_radar_structs.html#a91b5993e8da64c5ccffb388899bb260b", null ],
       [ "ObjectSortIndex", "group___raw_radar_structs.html#a8d74c372504122f98ab24225020500b2", null ]
+    ] ],
+    [ "AccelerationLateralCog", "group___raw_radar_structs.html#struct_acceleration_lateral_cog", [
+      [ "AccelerationLateral", "group___raw_radar_structs.html#a7ba8793d974f2a525a7ae6180d157a23", null ],
+      [ "AccelerationLateral_InvalidFlag", "group___raw_radar_structs.html#a8b2cc0214fd9fe44a16da524b989bd9c", null ],
+      [ "AccelerationLateralErrAmp", "group___raw_radar_structs.html#a030ecb8c11bb5e0e9c458de99ebe241d", null ],
+      [ "AccelerationLateralErrAmp_InvalidFlag", "group___raw_radar_structs.html#a86a53fa8aa32e8f58516f12251d32cdd", null ],
+      [ "AccelerationLateralEventDataQualifier", "group___raw_radar_structs.html#a72ed643218bf2ea153315c0cbb5d3e29", null ],
+      [ "QualifierAccelerationLateral", "group___raw_radar_structs.html#a7dee2c10ee7925962bfff9c3e20b3e37", null ]
+    ] ],
+    [ "AccelerationLongitudinalCog", "group___raw_radar_structs.html#struct_acceleration_longitudinal_cog", [
+      [ "AccelerationLongitudinal", "group___raw_radar_structs.html#ac35ab9d1ae01dde2602b86ce9fc70073", null ],
+      [ "AccelerationLongitudinal_InvalidFlag", "group___raw_radar_structs.html#a35d3331c30aaf6b3ef0b5df2dfbb229e", null ],
+      [ "AccelerationLongitudinalErrAmp", "group___raw_radar_structs.html#a924a399218063b5c2ee5293f8329d4d5", null ],
+      [ "AccelerationLongitudinalErrAmp_InvalidFlag", "group___raw_radar_structs.html#a52d57dd4c8713783941da4d29c9d6c31", null ],
+      [ "AccelerationLongitudinalEventDataQualifier", "group___raw_radar_structs.html#a94ef62f8213f4fd6658074864a99e508", null ],
+      [ "QuaifierAccelerationLongitudinal", "group___raw_radar_structs.html#adef7baaff492021cc444ac8219eec139", null ]
+    ] ],
+    [ "VelocityVehicle", "group___raw_radar_structs.html#struct_velocity_vehicle", [
+      [ "QualifierVelocityVehicle", "group___raw_radar_structs.html#a4555c830cccb24badbe16b8cf6c896e4", null ],
+      [ "StatusVelocityNearStandstill", "group___raw_radar_structs.html#af68cc3c0c7345fc81a987c4bf4745eb1", null ],
+      [ "VelocityVehicle", "group___raw_radar_structs.html#a7be3e92a4e390ccc940f2bf2bae6d3d4", null ],
+      [ "VelocityVehicle_InvalidFlag", "group___raw_radar_structs.html#acaa724fd874bf14dce2ba6bba7900c68", null ],
+      [ "VelocityVehicleEventDataQualifier", "group___raw_radar_structs.html#adf8e385920fbd1af3b4c7259fc67c5cd", null ]
+    ] ],
+    [ "DrivingDirection", "group___raw_radar_structs.html#struct_driving_direction", [
+      [ "DrivingDirectionConfirmed", "group___raw_radar_structs.html#a9b56159550f212c434d3bceba8cfb3ac", null ],
+      [ "DrivingDirectionUnconfirmed", "group___raw_radar_structs.html#a8788e1ff88c9077e4bebe751eabfb218", null ]
+    ] ],
+    [ "YawRate", "group___raw_radar_structs.html#struct_yaw_rate", [
+      [ "QualifierYawRate", "group___raw_radar_structs.html#a2dd27ef2fcdd9a9aacf449cbe06eaae9", null ],
+      [ "YawRate", "group___raw_radar_structs.html#aee70d6db72ef1c7ef84f8e889a13c8c8", null ],
+      [ "YawRate_InvalidFlag", "group___raw_radar_structs.html#a5462b3038d46339f6aaac88f82dc11ee", null ],
+      [ "YawRateErrAmp", "group___raw_radar_structs.html#a377b9e598c415702d11897fd1e13908c", null ],
+      [ "YawRateErrAmp_Invalid_Flag", "group___raw_radar_structs.html#a0bb06c1ed02cbe137182dc8f28de3721", null ],
+      [ "YawRateEventDataQualifier", "group___raw_radar_structs.html#a9d53ba9c56a706c3197b2778f5fee051", null ]
+    ] ],
+    [ "SteeringAngleFrontAxle", "group___raw_radar_structs.html#struct_steering_angle_front_axle", [
+      [ "QualifierSteeringAngleFrontAxle", "group___raw_radar_structs.html#aeed54a3703f5aae5103fd72957e79c13", null ],
+      [ "SteeringAngleFrontAxle", "group___raw_radar_structs.html#a21c39e81a958705e94a461263300f1ea", null ],
+      [ "SteeringAngleFrontAxle_InvalidFlag", "group___raw_radar_structs.html#abc9c6069d9a9bfc2f002c2f40a866ba5", null ],
+      [ "SteeringAngleFrontAxleErrAmp", "group___raw_radar_structs.html#ad24276bd7e04eb990660c5b99beec132", null ],
+      [ "SteeringAngleFrontAxleErrAmp_InvalidFlag", "group___raw_radar_structs.html#a468f610e605a90d7a52083ccaea95fc6", null ],
+      [ "SteeringAngleFrontAxleEventDataQualifier", "group___raw_radar_structs.html#aa6ee0fdc6b237677dc99720d46d3e932", null ]
+    ] ],
+    [ "CharacteristicSpeed", "group___raw_radar_structs.html#struct_characteristic_speed", [
+      [ "CharacteristicSpeed", "group___raw_radar_structs.html#a2875bfafcbfef89b08d9faa533ea9072", null ],
+      [ "CharacteristicSpeedErrAmp", "group___raw_radar_structs.html#a2eb43111f65ebcf146193665b55ecd3f", null ],
+      [ "QualifierCharacteristicSpeed", "group___raw_radar_structs.html#a8235df269ec88edd8d50b16d2b2d9be9", null ]
     ] ]
 ];

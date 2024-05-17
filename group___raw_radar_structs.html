@@ -131,6 +131,20 @@ Data Structures</h2></td></tr>
 <tr class="separator:struct_ars548_filter_config_entry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:struct_ars548_filter_configuration" id="r_struct_ars548_filter_configuration"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___raw_radar_structs.html#struct_ars548_filter_configuration">Ars548FilterConfiguration</a></td></tr>
 <tr class="separator:struct_ars548_filter_configuration"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:struct_acceleration_lateral_cog" id="r_struct_acceleration_lateral_cog"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___raw_radar_structs.html#struct_acceleration_lateral_cog">AccelerationLateralCog</a></td></tr>
+<tr class="separator:struct_acceleration_lateral_cog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:struct_acceleration_longitudinal_cog" id="r_struct_acceleration_longitudinal_cog"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___raw_radar_structs.html#struct_acceleration_longitudinal_cog">AccelerationLongitudinalCog</a></td></tr>
+<tr class="separator:struct_acceleration_longitudinal_cog"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:struct_velocity_vehicle" id="r_struct_velocity_vehicle"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___raw_radar_structs.html#struct_velocity_vehicle">VelocityVehicle</a></td></tr>
+<tr class="separator:struct_velocity_vehicle"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:struct_driving_direction" id="r_struct_driving_direction"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___raw_radar_structs.html#struct_driving_direction">DrivingDirection</a></td></tr>
+<tr class="separator:struct_driving_direction"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:struct_yaw_rate" id="r_struct_yaw_rate"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___raw_radar_structs.html#struct_yaw_rate">YawRate</a></td></tr>
+<tr class="separator:struct_yaw_rate"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:struct_steering_angle_front_axle" id="r_struct_steering_angle_front_axle"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___raw_radar_structs.html#struct_steering_angle_front_axle">SteeringAngleFrontAxle</a></td></tr>
+<tr class="separator:struct_steering_angle_front_axle"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:struct_characteristic_speed" id="r_struct_characteristic_speed"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___raw_radar_structs.html#struct_characteristic_speed">CharacteristicSpeed</a></td></tr>
+<tr class="separator:struct_characteristic_speed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Struct definitions for ARS548 radar series communication protocol </p>
@@ -247,13 +261,20 @@ Inheritance diagram for Ars548Msg:</div>
  <div class="center">
   <img src="group___raw_radar_structs.png" usemap="#Ars548Msg_map" alt=""/>
   <map id="Ars548Msg_map" name="Ars548Msg_map">
-<area href="group___raw_radar_structs.html#struct_ars548_detection_list" alt="Ars548DetectionList" shape="rect" coords="0,56,169,80"/>
-<area href="group___raw_radar_structs.html#struct_ars548_filter_configuration" alt="Ars548FilterConfiguration" shape="rect" coords="179,56,348,80"/>
-<area href="group___raw_radar_structs.html#struct_ars548_filter_status" alt="Ars548FilterStatus" shape="rect" coords="358,56,527,80"/>
-<area href="group___raw_radar_structs.html#struct_ars548_object_list" alt="Ars548ObjectList" shape="rect" coords="537,56,706,80"/>
-<area href="group___raw_radar_structs.html#struct_ars548_sensor_configuration" alt="Ars548SensorConfiguration" shape="rect" coords="716,56,885,80"/>
-<area href="group___raw_radar_structs.html#struct_ars548_sensor_status" alt="Ars548SensorStatus" shape="rect" coords="895,56,1064,80"/>
-<area href="group___raw_radar_structs.html#struct_ars548_sensor_status_older" alt="Ars548SensorStatusOlder" shape="rect" coords="1074,56,1243,80"/>
+<area href="group___raw_radar_structs.html#struct_acceleration_lateral_cog" alt="AccelerationLateralCog" shape="rect" coords="185,56,360,80"/>
+<area href="group___raw_radar_structs.html#struct_acceleration_longitudinal_cog" alt="AccelerationLongitudinalCog" shape="rect" coords="185,112,360,136"/>
+<area href="group___raw_radar_structs.html#struct_ars548_detection_list" alt="Ars548DetectionList" shape="rect" coords="185,168,360,192"/>
+<area href="group___raw_radar_structs.html#struct_ars548_filter_configuration" alt="Ars548FilterConfiguration" shape="rect" coords="185,224,360,248"/>
+<area href="group___raw_radar_structs.html#struct_ars548_filter_status" alt="Ars548FilterStatus" shape="rect" coords="185,280,360,304"/>
+<area href="group___raw_radar_structs.html#struct_ars548_object_list" alt="Ars548ObjectList" shape="rect" coords="185,336,360,360"/>
+<area href="group___raw_radar_structs.html#struct_ars548_sensor_configuration" alt="Ars548SensorConfiguration" shape="rect" coords="185,392,360,416"/>
+<area href="group___raw_radar_structs.html#struct_ars548_sensor_status" alt="Ars548SensorStatus" shape="rect" coords="185,448,360,472"/>
+<area href="group___raw_radar_structs.html#struct_ars548_sensor_status_older" alt="Ars548SensorStatusOlder" shape="rect" coords="185,504,360,528"/>
+<area href="group___raw_radar_structs.html#struct_characteristic_speed" alt="CharacteristicSpeed" shape="rect" coords="185,560,360,584"/>
+<area href="group___raw_radar_structs.html#struct_driving_direction" alt="DrivingDirection" shape="rect" coords="185,616,360,640"/>
+<area href="group___raw_radar_structs.html#struct_steering_angle_front_axle" alt="SteeringAngleFrontAxle" shape="rect" coords="185,672,360,696"/>
+<area href="group___raw_radar_structs.html#struct_velocity_vehicle" alt="VelocityVehicle" shape="rect" coords="185,728,360,752"/>
+<area href="group___raw_radar_structs.html#struct_yaw_rate" alt="YawRate" shape="rect" coords="185,784,360,808"/>
   </map>
 </div></div>
 
@@ -736,7 +757,7 @@ FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>f_RangeRateSTD</b>
 <tr class="separator:ac022a886532bdd241aedc4ee450d8f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae484fc45a7c09b92e0d848a2b00e3607" id="r_ae484fc45a7c09b92e0d848a2b00e3607"><td class="memItemLeft" align="right" valign="top"><a id="ae484fc45a7c09b92e0d848a2b00e3607" name="ae484fc45a7c09b92e0d848a2b00e3607"></a>
 INT8&#160;</td><td class="memItemRight" valign="bottom"><b>s_RCS</b></td></tr>
-<tr class="memdesc:ae484fc45a7c09b92e0d848a2b00e3607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detecion RCS. <br /></td></tr>
+<tr class="memdesc:ae484fc45a7c09b92e0d848a2b00e3607"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detection RCS. <br /></td></tr>
 <tr class="separator:ae484fc45a7c09b92e0d848a2b00e3607"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dfbe17d37a7c38d4b5b61738a0a6faa" id="r_a3dfbe17d37a7c38d4b5b61738a0a6faa"><td class="memItemLeft" align="right" valign="top"><a id="a3dfbe17d37a7c38d4b5b61738a0a6faa" name="a3dfbe17d37a7c38d4b5b61738a0a6faa"></a>
 UINT16&#160;</td><td class="memItemRight" valign="bottom"><b>u_MeasurementID</b></td></tr>
@@ -1280,67 +1301,67 @@ Inheritance diagram for Ars548SensorConfiguration:</div>
 <tr><td colspan="2"><h3>Data Fields</h3></td></tr>
 <tr class="memitem:a651b7ce9c16a1bbb095a0edb5adb4c0e" id="r_a651b7ce9c16a1bbb095a0edb5adb4c0e"><td class="memItemLeft" align="right" valign="top"><a id="a651b7ce9c16a1bbb095a0edb5adb4c0e" name="a651b7ce9c16a1bbb095a0edb5adb4c0e"></a>
 FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>Longitudinal</b></td></tr>
-<tr class="memdesc:a651b7ce9c16a1bbb095a0edb5adb4c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Longitudinal sensor position (AUTOSAR) <br /></td></tr>
+<tr class="memdesc:a651b7ce9c16a1bbb095a0edb5adb4c0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Longitudinal sensor position (AUTOSAR) (-100 ~ 100 m) <br /></td></tr>
 <tr class="separator:a651b7ce9c16a1bbb095a0edb5adb4c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a132e71ea9c46cecb83fa564430718768" id="r_a132e71ea9c46cecb83fa564430718768"><td class="memItemLeft" align="right" valign="top"><a id="a132e71ea9c46cecb83fa564430718768" name="a132e71ea9c46cecb83fa564430718768"></a>
 FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>Lateral</b></td></tr>
-<tr class="memdesc:a132e71ea9c46cecb83fa564430718768"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lateral sensor position (AUTOSAR) <br /></td></tr>
+<tr class="memdesc:a132e71ea9c46cecb83fa564430718768"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lateral sensor position (AUTOSAR) (-100 ~ 100 m) <br /></td></tr>
 <tr class="separator:a132e71ea9c46cecb83fa564430718768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12c162c608e77ef8886a6abec4248b74" id="r_a12c162c608e77ef8886a6abec4248b74"><td class="memItemLeft" align="right" valign="top"><a id="a12c162c608e77ef8886a6abec4248b74" name="a12c162c608e77ef8886a6abec4248b74"></a>
 FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>Vertical</b></td></tr>
-<tr class="memdesc:a12c162c608e77ef8886a6abec4248b74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertical sensor position (AUTOSAR) <br /></td></tr>
+<tr class="memdesc:a12c162c608e77ef8886a6abec4248b74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertical sensor position (AUTOSAR) (0.01 ~ 10 m) <br /></td></tr>
 <tr class="separator:a12c162c608e77ef8886a6abec4248b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b3788545198142f9602ef3c26c00a7a" id="r_a6b3788545198142f9602ef3c26c00a7a"><td class="memItemLeft" align="right" valign="top"><a id="a6b3788545198142f9602ef3c26c00a7a" name="a6b3788545198142f9602ef3c26c00a7a"></a>
 FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>Yaw</b></td></tr>
-<tr class="memdesc:a6b3788545198142f9602ef3c26c00a7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sensor yaw angle (AUTOSAR) <br /></td></tr>
+<tr class="memdesc:a6b3788545198142f9602ef3c26c00a7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sensor yaw angle (AUTOSAR) (-3.14159 ~ 3.14159 rad) <br /></td></tr>
 <tr class="separator:a6b3788545198142f9602ef3c26c00a7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29cf3b74a9742b41afdd66a17816bcc1" id="r_a29cf3b74a9742b41afdd66a17816bcc1"><td class="memItemLeft" align="right" valign="top"><a id="a29cf3b74a9742b41afdd66a17816bcc1" name="a29cf3b74a9742b41afdd66a17816bcc1"></a>
 FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>Pitch</b></td></tr>
-<tr class="memdesc:a29cf3b74a9742b41afdd66a17816bcc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sensor pitch angle (AUTOSAR) <br /></td></tr>
+<tr class="memdesc:a29cf3b74a9742b41afdd66a17816bcc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sensor pitch angle (AUTOSAR) (-1.5707 ~ 1.5707 rad) <br /></td></tr>
 <tr class="separator:a29cf3b74a9742b41afdd66a17816bcc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cc5902bb3ebc505de64e1328233f4fa" id="r_a9cc5902bb3ebc505de64e1328233f4fa"><td class="memItemLeft" align="right" valign="top"><a id="a9cc5902bb3ebc505de64e1328233f4fa" name="a9cc5902bb3ebc505de64e1328233f4fa"></a>
 UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>PlugOrientation</b></td></tr>
-<tr class="memdesc:a9cc5902bb3ebc505de64e1328233f4fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Orientation of plug. <br /></td></tr>
+<tr class="memdesc:a9cc5902bb3ebc505de64e1328233f4fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Orientation of plug (0=PLUG_RIGHT; 1=PLUG_LEFT) <br /></td></tr>
 <tr class="separator:a9cc5902bb3ebc505de64e1328233f4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04cdf90a6fd38dd0cfdff184ded62398" id="r_a04cdf90a6fd38dd0cfdff184ded62398"><td class="memItemLeft" align="right" valign="top"><a id="a04cdf90a6fd38dd0cfdff184ded62398" name="a04cdf90a6fd38dd0cfdff184ded62398"></a>
 FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>Length</b></td></tr>
-<tr class="memdesc:a04cdf90a6fd38dd0cfdff184ded62398"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vehicle length. <br /></td></tr>
+<tr class="memdesc:a04cdf90a6fd38dd0cfdff184ded62398"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vehicle length (0.01 ~ 100 m) <br /></td></tr>
 <tr class="separator:a04cdf90a6fd38dd0cfdff184ded62398"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeb0edcb6be41df38617e56a00c5fce6" id="r_adeb0edcb6be41df38617e56a00c5fce6"><td class="memItemLeft" align="right" valign="top"><a id="adeb0edcb6be41df38617e56a00c5fce6" name="adeb0edcb6be41df38617e56a00c5fce6"></a>
 FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>Width</b></td></tr>
-<tr class="memdesc:adeb0edcb6be41df38617e56a00c5fce6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vehicle width. <br /></td></tr>
+<tr class="memdesc:adeb0edcb6be41df38617e56a00c5fce6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vehicle width (0.01 ~ 100 m) <br /></td></tr>
 <tr class="separator:adeb0edcb6be41df38617e56a00c5fce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e2d4e4c176047747a91dca9e9e70e78" id="r_a3e2d4e4c176047747a91dca9e9e70e78"><td class="memItemLeft" align="right" valign="top"><a id="a3e2d4e4c176047747a91dca9e9e70e78" name="a3e2d4e4c176047747a91dca9e9e70e78"></a>
 FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>Height</b></td></tr>
-<tr class="memdesc:a3e2d4e4c176047747a91dca9e9e70e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vehicle height. <br /></td></tr>
+<tr class="memdesc:a3e2d4e4c176047747a91dca9e9e70e78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vehicle height (0.01 ~ 100 m) <br /></td></tr>
 <tr class="separator:a3e2d4e4c176047747a91dca9e9e70e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a983644885e5d8e254c558074ee0fe35d" id="r_a983644885e5d8e254c558074ee0fe35d"><td class="memItemLeft" align="right" valign="top"><a id="a983644885e5d8e254c558074ee0fe35d" name="a983644885e5d8e254c558074ee0fe35d"></a>
 FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>Wheelbase</b></td></tr>
-<tr class="memdesc:a983644885e5d8e254c558074ee0fe35d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vehicle wheelbase. <br /></td></tr>
+<tr class="memdesc:a983644885e5d8e254c558074ee0fe35d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vehicle wheelbase (0.01 ~ 100 m) <br /></td></tr>
 <tr class="separator:a983644885e5d8e254c558074ee0fe35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b4e9861ad73fe3ca0994a2db0825bec" id="r_a3b4e9861ad73fe3ca0994a2db0825bec"><td class="memItemLeft" align="right" valign="top"><a id="a3b4e9861ad73fe3ca0994a2db0825bec" name="a3b4e9861ad73fe3ca0994a2db0825bec"></a>
 UINT16&#160;</td><td class="memItemRight" valign="bottom"><b>MaximumDistance</b></td></tr>
-<tr class="memdesc:a3b4e9861ad73fe3ca0994a2db0825bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum detection distance. <br /></td></tr>
+<tr class="memdesc:a3b4e9861ad73fe3ca0994a2db0825bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum detection distance (93 ~ 1514 m) <br /></td></tr>
 <tr class="separator:a3b4e9861ad73fe3ca0994a2db0825bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76bd602ae8ae555032f261c9b036537b" id="r_a76bd602ae8ae555032f261c9b036537b"><td class="memItemLeft" align="right" valign="top"><a id="a76bd602ae8ae555032f261c9b036537b" name="a76bd602ae8ae555032f261c9b036537b"></a>
 UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>FrequencySlot</b></td></tr>
-<tr class="memdesc:a76bd602ae8ae555032f261c9b036537b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Center frequency (if MaximumDistance &lt; 190 m only Mid can be selected) <br /></td></tr>
+<tr class="memdesc:a76bd602ae8ae555032f261c9b036537b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Center frequency (if MaximumDistance &lt; 190 m only Mid can be selected) (0=Low (76.23 GHz); 1=Mid (76.48 GHz); 2=High (76.73 GHz)) <br /></td></tr>
 <tr class="separator:a76bd602ae8ae555032f261c9b036537b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d7d52f9f89db0f72d8742de90f418d4" id="r_a8d7d52f9f89db0f72d8742de90f418d4"><td class="memItemLeft" align="right" valign="top"><a id="a8d7d52f9f89db0f72d8742de90f418d4" name="a8d7d52f9f89db0f72d8742de90f418d4"></a>
 UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>CycleTime</b></td></tr>
-<tr class="memdesc:a8d7d52f9f89db0f72d8742de90f418d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cycle time. <br /></td></tr>
+<tr class="memdesc:a8d7d52f9f89db0f72d8742de90f418d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cycle time (50 ~ 100 ms) <br /></td></tr>
 <tr class="separator:a8d7d52f9f89db0f72d8742de90f418d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe194742a97cc81508a9be22c1f86991" id="r_abe194742a97cc81508a9be22c1f86991"><td class="memItemLeft" align="right" valign="top"><a id="abe194742a97cc81508a9be22c1f86991" name="abe194742a97cc81508a9be22c1f86991"></a>
 UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>TimeSlot</b></td></tr>
-<tr class="memdesc:abe194742a97cc81508a9be22c1f86991"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cycle offset. <br /></td></tr>
+<tr class="memdesc:abe194742a97cc81508a9be22c1f86991"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cycle offset (10 ~ 90 ms) <br /></td></tr>
 <tr class="separator:abe194742a97cc81508a9be22c1f86991"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af872928c5533c55276a5a0953ffb7152" id="r_af872928c5533c55276a5a0953ffb7152"><td class="memItemLeft" align="right" valign="top"><a id="af872928c5533c55276a5a0953ffb7152" name="af872928c5533c55276a5a0953ffb7152"></a>
 UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>HCC</b></td></tr>
-<tr class="memdesc:af872928c5533c55276a5a0953ffb7152"><td class="mdescLeft">&#160;</td><td class="mdescRight">Country code. <br /></td></tr>
+<tr class="memdesc:af872928c5533c55276a5a0953ffb7152"><td class="mdescLeft">&#160;</td><td class="mdescRight">Country code (1=Worldwide; 2=Japan) <br /></td></tr>
 <tr class="separator:af872928c5533c55276a5a0953ffb7152"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6af46f81b12bc7a23e09ec32e6bb508" id="r_ab6af46f81b12bc7a23e09ec32e6bb508"><td class="memItemLeft" align="right" valign="top"><a id="ab6af46f81b12bc7a23e09ec32e6bb508" name="ab6af46f81b12bc7a23e09ec32e6bb508"></a>
 UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>Powersave_Standstill</b></td></tr>
-<tr class="memdesc:ab6af46f81b12bc7a23e09ec32e6bb508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Power saving in standstill. <br /></td></tr>
+<tr class="memdesc:ab6af46f81b12bc7a23e09ec32e6bb508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Power saving in standstill (0=Off; 1=On) <br /></td></tr>
 <tr class="separator:ab6af46f81b12bc7a23e09ec32e6bb508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe6883636c30ef4e9d63b559af0db97c" id="r_abe6883636c30ef4e9d63b559af0db97c"><td class="memItemLeft" align="right" valign="top"><a id="abe6883636c30ef4e9d63b559af0db97c" name="abe6883636c30ef4e9d63b559af0db97c"></a>
 UINT32&#160;</td><td class="memItemRight" valign="bottom"><b>SensorIPAddress_0</b></td></tr>
@@ -1352,19 +1373,19 @@ UINT32&#160;</td><td class="memItemRight" valign="bottom"><b>SensorIPAddress_1</
 <tr class="separator:a547d838c5957a6be6e6119a98f221db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace41d39e101725d5494a7f286b702c20" id="r_ace41d39e101725d5494a7f286b702c20"><td class="memItemLeft" align="right" valign="top"><a id="ace41d39e101725d5494a7f286b702c20" name="ace41d39e101725d5494a7f286b702c20"></a>
 UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>NewSensorMounting</b></td></tr>
-<tr class="memdesc:ace41d39e101725d5494a7f286b702c20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if new sensor mounting position shall be configured. <br /></td></tr>
+<tr class="memdesc:ace41d39e101725d5494a7f286b702c20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if new sensor mounting position shall be configured (0=Ignore parameters; 1=Use parameters) <br /></td></tr>
 <tr class="separator:ace41d39e101725d5494a7f286b702c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad9f38c8e3620dad211696500037cace" id="r_aad9f38c8e3620dad211696500037cace"><td class="memItemLeft" align="right" valign="top"><a id="aad9f38c8e3620dad211696500037cace" name="aad9f38c8e3620dad211696500037cace"></a>
 UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>NewVehicleParameters</b></td></tr>
-<tr class="memdesc:aad9f38c8e3620dad211696500037cace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if new vehicle parameters position shall be configured. <br /></td></tr>
+<tr class="memdesc:aad9f38c8e3620dad211696500037cace"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if new vehicle parameters position shall be configured (0=Ignore parameters; 1=Use parameters) <br /></td></tr>
 <tr class="separator:aad9f38c8e3620dad211696500037cace"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6cbdd2b9dc1d4e09a9b5c7385ca8f57" id="r_aa6cbdd2b9dc1d4e09a9b5c7385ca8f57"><td class="memItemLeft" align="right" valign="top"><a id="aa6cbdd2b9dc1d4e09a9b5c7385ca8f57" name="aa6cbdd2b9dc1d4e09a9b5c7385ca8f57"></a>
 UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>NewRadarParameters</b></td></tr>
-<tr class="memdesc:aa6cbdd2b9dc1d4e09a9b5c7385ca8f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if new radar parameter shall be configured. <br /></td></tr>
+<tr class="memdesc:aa6cbdd2b9dc1d4e09a9b5c7385ca8f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if new radar parameter shall be configured (0=Ignore parameters; 1=Use parameters) <br /></td></tr>
 <tr class="separator:aa6cbdd2b9dc1d4e09a9b5c7385ca8f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeca52eacd6a56837baab1a0c6c7eb26a" id="r_aeca52eacd6a56837baab1a0c6c7eb26a"><td class="memItemLeft" align="right" valign="top"><a id="aeca52eacd6a56837baab1a0c6c7eb26a" name="aeca52eacd6a56837baab1a0c6c7eb26a"></a>
 UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>NewNetworkConfiguration</b></td></tr>
-<tr class="memdesc:aeca52eacd6a56837baab1a0c6c7eb26a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if new IP address shall be configured. <br /></td></tr>
+<tr class="memdesc:aeca52eacd6a56837baab1a0c6c7eb26a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag if new IP address shall be configured (0=Ignore parameters; 1=Use parameters) <br /></td></tr>
 <tr class="separator:aeca52eacd6a56837baab1a0c6c7eb26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 
@@ -1387,9 +1408,7 @@ UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>NewNetworkConfigurat
 UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>Active</b></td></tr>
 <tr class="memdesc:a606a78b8196e388635316e5e446f14d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag to activate/deactivate filter (0=Inactive; 1=Active) <br /></td></tr>
 <tr class="separator:a606a78b8196e388635316e5e446f14d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d563aaf7395e66ce055ce6c46a2571d" id="r_a8d563aaf7395e66ce055ce6c46a2571d"><td class="memItemLeft" align="right" valign="top"><a id="a8d563aaf7395e66ce055ce6c46a2571d" name="a8d563aaf7395e66ce055ce6c46a2571d"></a>
-UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>FilterID</b></td></tr>
-<tr class="memdesc:a8d563aaf7395e66ce055ce6c46a2571d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filter data index (1-7 for Detection filters; 1-24 for Object filters) <br /></td></tr>
+<tr class="memitem:a8d563aaf7395e66ce055ce6c46a2571d" id="r_a8d563aaf7395e66ce055ce6c46a2571d"><td class="memItemLeft" align="right" valign="top">UINT8&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___raw_radar_structs.html#a8d563aaf7395e66ce055ce6c46a2571d">FilterID</a></td></tr>
 <tr class="separator:a8d563aaf7395e66ce055ce6c46a2571d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a734e42fcedc8e8ae0b5e2fa0def192" id="r_a2a734e42fcedc8e8ae0b5e2fa0def192"><td class="memItemLeft" align="right" valign="top"><a id="a2a734e42fcedc8e8ae0b5e2fa0def192" name="a2a734e42fcedc8e8ae0b5e2fa0def192"></a>
 UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>FilterType</b></td></tr>
@@ -1404,6 +1423,47 @@ FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>MaximumValue</b></
 <tr class="memdesc:a9d1d2a6c9f57e2b878ad661f4f230f80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum data value to pass the filter. <br /></td></tr>
 <tr class="separator:a9d1d2a6c9f57e2b878ad661f4f230f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h4 class="groupheader">Field Documentation</h4>
+<a id="a8d563aaf7395e66ce055ce6c46a2571d" name="a8d563aaf7395e66ce055ce6c46a2571d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d563aaf7395e66ce055ce6c46a2571d">&#9670;&#160;</a></span>FilterID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UINT8 Ars548FilterConfigEntry::FilterID</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Filter data index (1-7 for Detection filters; 1-24 for Object filters) <br  />
+<b>Detection and objects:</b> <br  />
+1 = Radial distance (m) <br  />
+2 = Azimuth (rad) <br  />
+3 = Elevation (rad) <br  />
+4 = Oncoming (-) radial velocity (m/s) <br  />
+5 = Departing (+) radial velocity (m/s) <br  />
+6 = RCS (dBm²) <br  />
+7 = Probability of existence (%) <br  />
+<b>Objects only:</b> <br  />
+8 = Lifetime (s) <br  />
+9 = Size (m²) <br  />
+10 = Longitudinal (x) distance (m) <br  />
+11 = Lateral (y) distance (m) <br  />
+12 = Vertical (z) distance (m) <br  />
+13 = Relative oncoming (-) longitudinal velocity (m/s) <br  />
+14 = Relative right-left (+) lateral velocity (m/s) <br  />
+15 = Relative departing (+) longitudinal velocity (m/s) <br  />
+16 = Relative left-right (-) lateral velocity (m/s) <br  />
+17 = Car class probability (%) <br  />
+18 = Truck class probability (%) <br  />
+19 = Motorcycle class probability (%) <br  />
+20 = Bicycle class probability (%) <br  />
+21 = Pedestrian class probability (%) <br  />
+23 = Hazard class probability (%) <br  />
+24 = Unknown class probability (%) </p>
+
+</div>
+</div>
 
 </div>
 </div>
@@ -1452,12 +1512,351 @@ UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>NumberOfFilters</b><
 
 </div>
 </div>
+<a name="struct_acceleration_lateral_cog" id="struct_acceleration_lateral_cog"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#struct_acceleration_lateral_cog">&#9670;&#160;</a></span>AccelerationLateralCog</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct AccelerationLateralCog</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"></div><div class="dynheader">
+Inheritance diagram for AccelerationLateralCog:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="group___raw_radar_structs.png" usemap="#AccelerationLateralCog_map" alt=""/>
+  <map id="AccelerationLateralCog_map" name="AccelerationLateralCog_map">
+<area href="group___raw_radar_structs.html#struct_ars548_msg" alt="Ars548Msg" shape="rect" coords="0,0,146,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr><td colspan="2"><h3>Data Fields</h3></td></tr>
+<tr class="memitem:a030ecb8c11bb5e0e9c458de99ebe241d" id="r_a030ecb8c11bb5e0e9c458de99ebe241d"><td class="memItemLeft" align="right" valign="top"><a id="a030ecb8c11bb5e0e9c458de99ebe241d" name="a030ecb8c11bb5e0e9c458de99ebe241d"></a>
+FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>AccelerationLateralErrAmp</b></td></tr>
+<tr class="memdesc:a030ecb8c11bb5e0e9c458de99ebe241d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error Amplitude of Lateral Acceleration (Unused) <br /></td></tr>
+<tr class="separator:a030ecb8c11bb5e0e9c458de99ebe241d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86a53fa8aa32e8f58516f12251d32cdd" id="r_a86a53fa8aa32e8f58516f12251d32cdd"><td class="memItemLeft" align="right" valign="top"><a id="a86a53fa8aa32e8f58516f12251d32cdd" name="a86a53fa8aa32e8f58516f12251d32cdd"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>AccelerationLateralErrAmp_InvalidFlag</b></td></tr>
+<tr class="memdesc:a86a53fa8aa32e8f58516f12251d32cdd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid Flags Accel LatErrAmp (Unused) <br /></td></tr>
+<tr class="separator:a86a53fa8aa32e8f58516f12251d32cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dee2c10ee7925962bfff9c3e20b3e37" id="r_a7dee2c10ee7925962bfff9c3e20b3e37"><td class="memItemLeft" align="right" valign="top"><a id="a7dee2c10ee7925962bfff9c3e20b3e37" name="a7dee2c10ee7925962bfff9c3e20b3e37"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>QualifierAccelerationLateral</b></td></tr>
+<tr class="memdesc:a7dee2c10ee7925962bfff9c3e20b3e37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lateral Acceleration Qualifier (Unused) <br /></td></tr>
+<tr class="separator:a7dee2c10ee7925962bfff9c3e20b3e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ba8793d974f2a525a7ae6180d157a23" id="r_a7ba8793d974f2a525a7ae6180d157a23"><td class="memItemLeft" align="right" valign="top"><a id="a7ba8793d974f2a525a7ae6180d157a23" name="a7ba8793d974f2a525a7ae6180d157a23"></a>
+FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>AccelerationLateral</b></td></tr>
+<tr class="memdesc:a7ba8793d974f2a525a7ae6180d157a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lateral Acceleration (-65 ~ 65 m/s²) <br /></td></tr>
+<tr class="separator:a7ba8793d974f2a525a7ae6180d157a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b2cc0214fd9fe44a16da524b989bd9c" id="r_a8b2cc0214fd9fe44a16da524b989bd9c"><td class="memItemLeft" align="right" valign="top"><a id="a8b2cc0214fd9fe44a16da524b989bd9c" name="a8b2cc0214fd9fe44a16da524b989bd9c"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>AccelerationLateral_InvalidFlag</b></td></tr>
+<tr class="memdesc:a8b2cc0214fd9fe44a16da524b989bd9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid Flag Lateral Acceleration (Unused) <br /></td></tr>
+<tr class="separator:a8b2cc0214fd9fe44a16da524b989bd9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72ed643218bf2ea153315c0cbb5d3e29" id="r_a72ed643218bf2ea153315c0cbb5d3e29"><td class="memItemLeft" align="right" valign="top"><a id="a72ed643218bf2ea153315c0cbb5d3e29" name="a72ed643218bf2ea153315c0cbb5d3e29"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>AccelerationLateralEventDataQualifier</b></td></tr>
+<tr class="memdesc:a72ed643218bf2ea153315c0cbb5d3e29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event Data Qualifier Lateral Acceleration (Unused) <br /></td></tr>
+<tr class="separator:a72ed643218bf2ea153315c0cbb5d3e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ec373036820373dd81af77ef54b468e" id="r_a8ec373036820373dd81af77ef54b468e"><td class="memItemLeft" align="right" valign="top"><a id="a8ec373036820373dd81af77ef54b468e" name="a8ec373036820373dd81af77ef54b468e"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved</b> [20]</td></tr>
+<tr class="separator:a8ec373036820373dd81af77ef54b468e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+
+</div>
+</div>
+<a name="struct_acceleration_longitudinal_cog" id="struct_acceleration_longitudinal_cog"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#struct_acceleration_longitudinal_cog">&#9670;&#160;</a></span>AccelerationLongitudinalCog</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct AccelerationLongitudinalCog</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"></div><div class="dynheader">
+Inheritance diagram for AccelerationLongitudinalCog:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="group___raw_radar_structs.png" usemap="#AccelerationLongitudinalCog_map" alt=""/>
+  <map id="AccelerationLongitudinalCog_map" name="AccelerationLongitudinalCog_map">
+<area href="group___raw_radar_structs.html#struct_ars548_msg" alt="Ars548Msg" shape="rect" coords="0,0,175,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr><td colspan="2"><h3>Data Fields</h3></td></tr>
+<tr class="memitem:a924a399218063b5c2ee5293f8329d4d5" id="r_a924a399218063b5c2ee5293f8329d4d5"><td class="memItemLeft" align="right" valign="top"><a id="a924a399218063b5c2ee5293f8329d4d5" name="a924a399218063b5c2ee5293f8329d4d5"></a>
+FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>AccelerationLongitudinalErrAmp</b></td></tr>
+<tr class="memdesc:a924a399218063b5c2ee5293f8329d4d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error Amplitude of Longitudinal Acceleration (Unused) <br /></td></tr>
+<tr class="separator:a924a399218063b5c2ee5293f8329d4d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52d57dd4c8713783941da4d29c9d6c31" id="r_a52d57dd4c8713783941da4d29c9d6c31"><td class="memItemLeft" align="right" valign="top"><a id="a52d57dd4c8713783941da4d29c9d6c31" name="a52d57dd4c8713783941da4d29c9d6c31"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>AccelerationLongitudinalErrAmp_InvalidFlag</b></td></tr>
+<tr class="memdesc:a52d57dd4c8713783941da4d29c9d6c31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid Flags AccelLongErrAmp (Unused) <br /></td></tr>
+<tr class="separator:a52d57dd4c8713783941da4d29c9d6c31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adef7baaff492021cc444ac8219eec139" id="r_adef7baaff492021cc444ac8219eec139"><td class="memItemLeft" align="right" valign="top"><a id="adef7baaff492021cc444ac8219eec139" name="adef7baaff492021cc444ac8219eec139"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>QuaifierAccelerationLongitudinal</b></td></tr>
+<tr class="memdesc:adef7baaff492021cc444ac8219eec139"><td class="mdescLeft">&#160;</td><td class="mdescRight">Longitudinal Aceleratio Qualifier (Unused) <br /></td></tr>
+<tr class="separator:adef7baaff492021cc444ac8219eec139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac35ab9d1ae01dde2602b86ce9fc70073" id="r_ac35ab9d1ae01dde2602b86ce9fc70073"><td class="memItemLeft" align="right" valign="top"><a id="ac35ab9d1ae01dde2602b86ce9fc70073" name="ac35ab9d1ae01dde2602b86ce9fc70073"></a>
+FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>AccelerationLongitudinal</b></td></tr>
+<tr class="memdesc:ac35ab9d1ae01dde2602b86ce9fc70073"><td class="mdescLeft">&#160;</td><td class="mdescRight">Longitudinal Acceleration (-65 ~ 65 m/s²) <br /></td></tr>
+<tr class="separator:ac35ab9d1ae01dde2602b86ce9fc70073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35d3331c30aaf6b3ef0b5df2dfbb229e" id="r_a35d3331c30aaf6b3ef0b5df2dfbb229e"><td class="memItemLeft" align="right" valign="top"><a id="a35d3331c30aaf6b3ef0b5df2dfbb229e" name="a35d3331c30aaf6b3ef0b5df2dfbb229e"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>AccelerationLongitudinal_InvalidFlag</b></td></tr>
+<tr class="memdesc:a35d3331c30aaf6b3ef0b5df2dfbb229e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid Flag Longitudinal Acceleration (Unused) <br /></td></tr>
+<tr class="separator:a35d3331c30aaf6b3ef0b5df2dfbb229e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94ef62f8213f4fd6658074864a99e508" id="r_a94ef62f8213f4fd6658074864a99e508"><td class="memItemLeft" align="right" valign="top"><a id="a94ef62f8213f4fd6658074864a99e508" name="a94ef62f8213f4fd6658074864a99e508"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>AccelerationLongitudinalEventDataQualifier</b></td></tr>
+<tr class="memdesc:a94ef62f8213f4fd6658074864a99e508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event Data Qualifier Longitudinal Acceleration (Unused) <br /></td></tr>
+<tr class="separator:a94ef62f8213f4fd6658074864a99e508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a586d7130f17007cafed2f197d91cc5a1" id="r_a586d7130f17007cafed2f197d91cc5a1"><td class="memItemLeft" align="right" valign="top"><a id="a586d7130f17007cafed2f197d91cc5a1" name="a586d7130f17007cafed2f197d91cc5a1"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved</b> [20]</td></tr>
+<tr class="separator:a586d7130f17007cafed2f197d91cc5a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+
+</div>
+</div>
+<a name="struct_velocity_vehicle" id="struct_velocity_vehicle"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#struct_velocity_vehicle">&#9670;&#160;</a></span>VelocityVehicle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct VelocityVehicle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"></div><div class="dynheader">
+Inheritance diagram for VelocityVehicle:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="group___raw_radar_structs.png" usemap="#VelocityVehicle_map" alt=""/>
+  <map id="VelocityVehicle_map" name="VelocityVehicle_map">
+<area href="group___raw_radar_structs.html#struct_ars548_msg" alt="Ars548Msg" shape="rect" coords="0,0,101,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr><td colspan="2"><h3>Data Fields</h3></td></tr>
+<tr class="memitem:af68cc3c0c7345fc81a987c4bf4745eb1" id="r_af68cc3c0c7345fc81a987c4bf4745eb1"><td class="memItemLeft" align="right" valign="top"><a id="af68cc3c0c7345fc81a987c4bf4745eb1" name="af68cc3c0c7345fc81a987c4bf4745eb1"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>StatusVelocityNearStandstill</b></td></tr>
+<tr class="memdesc:af68cc3c0c7345fc81a987c4bf4745eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Velocity Near Standstill Status (Unused) <br /></td></tr>
+<tr class="separator:af68cc3c0c7345fc81a987c4bf4745eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4555c830cccb24badbe16b8cf6c896e4" id="r_a4555c830cccb24badbe16b8cf6c896e4"><td class="memItemLeft" align="right" valign="top"><a id="a4555c830cccb24badbe16b8cf6c896e4" name="a4555c830cccb24badbe16b8cf6c896e4"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>QualifierVelocityVehicle</b></td></tr>
+<tr class="memdesc:a4555c830cccb24badbe16b8cf6c896e4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="group___raw_radar_structs.html#struct_velocity_vehicle">VelocityVehicle</a> Qualifier (Unused) <br /></td></tr>
+<tr class="separator:a4555c830cccb24badbe16b8cf6c896e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf8e385920fbd1af3b4c7259fc67c5cd" id="r_adf8e385920fbd1af3b4c7259fc67c5cd"><td class="memItemLeft" align="right" valign="top"><a id="adf8e385920fbd1af3b4c7259fc67c5cd" name="adf8e385920fbd1af3b4c7259fc67c5cd"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>VelocityVehicleEventDataQualifier</b></td></tr>
+<tr class="memdesc:adf8e385920fbd1af3b4c7259fc67c5cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event Data Qualifier <a class="el" href="group___raw_radar_structs.html#struct_velocity_vehicle">VelocityVehicle</a> (Unused) <br /></td></tr>
+<tr class="separator:adf8e385920fbd1af3b4c7259fc67c5cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be3e92a4e390ccc940f2bf2bae6d3d4" id="r_a7be3e92a4e390ccc940f2bf2bae6d3d4"><td class="memItemLeft" align="right" valign="top"><a id="a7be3e92a4e390ccc940f2bf2bae6d3d4" name="a7be3e92a4e390ccc940f2bf2bae6d3d4"></a>
+FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>VelocityVehicle</b></td></tr>
+<tr class="memdesc:a7be3e92a4e390ccc940f2bf2bae6d3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="group___raw_radar_structs.html#struct_velocity_vehicle">VelocityVehicle</a> (0 ~ 350 km/h) <br /></td></tr>
+<tr class="separator:a7be3e92a4e390ccc940f2bf2bae6d3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa724fd874bf14dce2ba6bba7900c68" id="r_acaa724fd874bf14dce2ba6bba7900c68"><td class="memItemLeft" align="right" valign="top"><a id="acaa724fd874bf14dce2ba6bba7900c68" name="acaa724fd874bf14dce2ba6bba7900c68"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>VelocityVehicle_InvalidFlag</b></td></tr>
+<tr class="memdesc:acaa724fd874bf14dce2ba6bba7900c68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid Flag <a class="el" href="group___raw_radar_structs.html#struct_velocity_vehicle">VelocityVehicle</a> (Unused) <br /></td></tr>
+<tr class="separator:acaa724fd874bf14dce2ba6bba7900c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e6c15b9f6c4dc8c6ff4ac13fa551ba6" id="r_a0e6c15b9f6c4dc8c6ff4ac13fa551ba6"><td class="memItemLeft" align="right" valign="top"><a id="a0e6c15b9f6c4dc8c6ff4ac13fa551ba6" name="a0e6c15b9f6c4dc8c6ff4ac13fa551ba6"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved</b> [20]</td></tr>
+<tr class="separator:a0e6c15b9f6c4dc8c6ff4ac13fa551ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+
+</div>
+</div>
+<a name="struct_driving_direction" id="struct_driving_direction"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#struct_driving_direction">&#9670;&#160;</a></span>DrivingDirection</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct DrivingDirection</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"></div><div class="dynheader">
+Inheritance diagram for DrivingDirection:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="group___raw_radar_structs.png" usemap="#DrivingDirection_map" alt=""/>
+  <map id="DrivingDirection_map" name="DrivingDirection_map">
+<area href="group___raw_radar_structs.html#struct_ars548_msg" alt="Ars548Msg" shape="rect" coords="0,0,104,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr><td colspan="2"><h3>Data Fields</h3></td></tr>
+<tr class="memitem:a8788e1ff88c9077e4bebe751eabfb218" id="r_a8788e1ff88c9077e4bebe751eabfb218"><td class="memItemLeft" align="right" valign="top"><a id="a8788e1ff88c9077e4bebe751eabfb218" name="a8788e1ff88c9077e4bebe751eabfb218"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>DrivingDirectionUnconfirmed</b></td></tr>
+<tr class="memdesc:a8788e1ff88c9077e4bebe751eabfb218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unconfirmed Driving Direction (Unused) <br /></td></tr>
+<tr class="separator:a8788e1ff88c9077e4bebe751eabfb218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b56159550f212c434d3bceba8cfb3ac" id="r_a9b56159550f212c434d3bceba8cfb3ac"><td class="memItemLeft" align="right" valign="top"><a id="a9b56159550f212c434d3bceba8cfb3ac" name="a9b56159550f212c434d3bceba8cfb3ac"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>DrivingDirectionConfirmed</b></td></tr>
+<tr class="memdesc:a9b56159550f212c434d3bceba8cfb3ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Confirmed Driving Direction (0: Standstill; 1: Forward; 2: Backwards) <br /></td></tr>
+<tr class="separator:a9b56159550f212c434d3bceba8cfb3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af59f6a8ad3937f24b4a3b22e7b1df13a" id="r_af59f6a8ad3937f24b4a3b22e7b1df13a"><td class="memItemLeft" align="right" valign="top"><a id="af59f6a8ad3937f24b4a3b22e7b1df13a" name="af59f6a8ad3937f24b4a3b22e7b1df13a"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved</b> [20]</td></tr>
+<tr class="separator:af59f6a8ad3937f24b4a3b22e7b1df13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+
+</div>
+</div>
+<a name="struct_yaw_rate" id="struct_yaw_rate"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#struct_yaw_rate">&#9670;&#160;</a></span>YawRate</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct YawRate</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"></div><div class="dynheader">
+Inheritance diagram for YawRate:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="group___raw_radar_structs.png" usemap="#YawRate_map" alt=""/>
+  <map id="YawRate_map" name="YawRate_map">
+<area href="group___raw_radar_structs.html#struct_ars548_msg" alt="Ars548Msg" shape="rect" coords="0,0,77,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr><td colspan="2"><h3>Data Fields</h3></td></tr>
+<tr class="memitem:a377b9e598c415702d11897fd1e13908c" id="r_a377b9e598c415702d11897fd1e13908c"><td class="memItemLeft" align="right" valign="top"><a id="a377b9e598c415702d11897fd1e13908c" name="a377b9e598c415702d11897fd1e13908c"></a>
+FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>YawRateErrAmp</b></td></tr>
+<tr class="memdesc:a377b9e598c415702d11897fd1e13908c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error Amplitude of <a class="el" href="group___raw_radar_structs.html#struct_yaw_rate">YawRate</a> (Unused) <br /></td></tr>
+<tr class="separator:a377b9e598c415702d11897fd1e13908c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bb06c1ed02cbe137182dc8f28de3721" id="r_a0bb06c1ed02cbe137182dc8f28de3721"><td class="memItemLeft" align="right" valign="top"><a id="a0bb06c1ed02cbe137182dc8f28de3721" name="a0bb06c1ed02cbe137182dc8f28de3721"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>YawRateErrAmp_Invalid_Flag</b></td></tr>
+<tr class="memdesc:a0bb06c1ed02cbe137182dc8f28de3721"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid Flags AccelLatErrAmp (Unused) <br /></td></tr>
+<tr class="separator:a0bb06c1ed02cbe137182dc8f28de3721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd27ef2fcdd9a9aacf449cbe06eaae9" id="r_a2dd27ef2fcdd9a9aacf449cbe06eaae9"><td class="memItemLeft" align="right" valign="top"><a id="a2dd27ef2fcdd9a9aacf449cbe06eaae9" name="a2dd27ef2fcdd9a9aacf449cbe06eaae9"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>QualifierYawRate</b></td></tr>
+<tr class="memdesc:a2dd27ef2fcdd9a9aacf449cbe06eaae9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="group___raw_radar_structs.html#struct_yaw_rate">YawRate</a> Qualifier (Unused) <br /></td></tr>
+<tr class="separator:a2dd27ef2fcdd9a9aacf449cbe06eaae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee70d6db72ef1c7ef84f8e889a13c8c8" id="r_aee70d6db72ef1c7ef84f8e889a13c8c8"><td class="memItemLeft" align="right" valign="top"><a id="aee70d6db72ef1c7ef84f8e889a13c8c8" name="aee70d6db72ef1c7ef84f8e889a13c8c8"></a>
+FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>YawRate</b></td></tr>
+<tr class="memdesc:aee70d6db72ef1c7ef84f8e889a13c8c8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="group___raw_radar_structs.html#struct_yaw_rate">YawRate</a> (-163,84 ~ 163,83 deg/s) <br /></td></tr>
+<tr class="separator:aee70d6db72ef1c7ef84f8e889a13c8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5462b3038d46339f6aaac88f82dc11ee" id="r_a5462b3038d46339f6aaac88f82dc11ee"><td class="memItemLeft" align="right" valign="top"><a id="a5462b3038d46339f6aaac88f82dc11ee" name="a5462b3038d46339f6aaac88f82dc11ee"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>YawRate_InvalidFlag</b></td></tr>
+<tr class="memdesc:a5462b3038d46339f6aaac88f82dc11ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid Flag Yaw Rate (Unused) <br /></td></tr>
+<tr class="separator:a5462b3038d46339f6aaac88f82dc11ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d53ba9c56a706c3197b2778f5fee051" id="r_a9d53ba9c56a706c3197b2778f5fee051"><td class="memItemLeft" align="right" valign="top"><a id="a9d53ba9c56a706c3197b2778f5fee051" name="a9d53ba9c56a706c3197b2778f5fee051"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>YawRateEventDataQualifier</b></td></tr>
+<tr class="memdesc:a9d53ba9c56a706c3197b2778f5fee051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event Data Qualifier <a class="el" href="group___raw_radar_structs.html#struct_yaw_rate">YawRate</a> (Unused) <br /></td></tr>
+<tr class="separator:a9d53ba9c56a706c3197b2778f5fee051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae19c8a1749c8e4f5026f8b59d6291bcf" id="r_ae19c8a1749c8e4f5026f8b59d6291bcf"><td class="memItemLeft" align="right" valign="top"><a id="ae19c8a1749c8e4f5026f8b59d6291bcf" name="ae19c8a1749c8e4f5026f8b59d6291bcf"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved</b> [20]</td></tr>
+<tr class="separator:ae19c8a1749c8e4f5026f8b59d6291bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+
+</div>
+</div>
+<a name="struct_steering_angle_front_axle" id="struct_steering_angle_front_axle"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#struct_steering_angle_front_axle">&#9670;&#160;</a></span>SteeringAngleFrontAxle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct SteeringAngleFrontAxle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"></div><div class="dynheader">
+Inheritance diagram for SteeringAngleFrontAxle:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="group___raw_radar_structs.png" usemap="#SteeringAngleFrontAxle_map" alt=""/>
+  <map id="SteeringAngleFrontAxle_map" name="SteeringAngleFrontAxle_map">
+<area href="group___raw_radar_structs.html#struct_ars548_msg" alt="Ars548Msg" shape="rect" coords="0,0,147,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr><td colspan="2"><h3>Data Fields</h3></td></tr>
+<tr class="memitem:aeed54a3703f5aae5103fd72957e79c13" id="r_aeed54a3703f5aae5103fd72957e79c13"><td class="memItemLeft" align="right" valign="top"><a id="aeed54a3703f5aae5103fd72957e79c13" name="aeed54a3703f5aae5103fd72957e79c13"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>QualifierSteeringAngleFrontAxle</b></td></tr>
+<tr class="memdesc:aeed54a3703f5aae5103fd72957e79c13"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="group___raw_radar_structs.html#struct_steering_angle_front_axle">SteeringAngleFrontAxle</a> Qualifier (Unused) <br /></td></tr>
+<tr class="separator:aeed54a3703f5aae5103fd72957e79c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad24276bd7e04eb990660c5b99beec132" id="r_ad24276bd7e04eb990660c5b99beec132"><td class="memItemLeft" align="right" valign="top"><a id="ad24276bd7e04eb990660c5b99beec132" name="ad24276bd7e04eb990660c5b99beec132"></a>
+FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>SteeringAngleFrontAxleErrAmp</b></td></tr>
+<tr class="memdesc:ad24276bd7e04eb990660c5b99beec132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error Amplitude of <a class="el" href="group___raw_radar_structs.html#struct_steering_angle_front_axle">SteeringAngleFrontAxle</a> (Unused) <br /></td></tr>
+<tr class="separator:ad24276bd7e04eb990660c5b99beec132"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a468f610e605a90d7a52083ccaea95fc6" id="r_a468f610e605a90d7a52083ccaea95fc6"><td class="memItemLeft" align="right" valign="top"><a id="a468f610e605a90d7a52083ccaea95fc6" name="a468f610e605a90d7a52083ccaea95fc6"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>SteeringAngleFrontAxleErrAmp_InvalidFlag</b></td></tr>
+<tr class="memdesc:a468f610e605a90d7a52083ccaea95fc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid Flag SteeringAngleFrontAxleErrAmp (Unused) <br /></td></tr>
+<tr class="separator:a468f610e605a90d7a52083ccaea95fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21c39e81a958705e94a461263300f1ea" id="r_a21c39e81a958705e94a461263300f1ea"><td class="memItemLeft" align="right" valign="top"><a id="a21c39e81a958705e94a461263300f1ea" name="a21c39e81a958705e94a461263300f1ea"></a>
+FLOAT32&#160;</td><td class="memItemRight" valign="bottom"><b>SteeringAngleFrontAxle</b></td></tr>
+<tr class="memdesc:a21c39e81a958705e94a461263300f1ea"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="group___raw_radar_structs.html#struct_steering_angle_front_axle">SteeringAngleFrontAxle</a> (-90 ~ 90 deg) <br /></td></tr>
+<tr class="separator:a21c39e81a958705e94a461263300f1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc9c6069d9a9bfc2f002c2f40a866ba5" id="r_abc9c6069d9a9bfc2f002c2f40a866ba5"><td class="memItemLeft" align="right" valign="top"><a id="abc9c6069d9a9bfc2f002c2f40a866ba5" name="abc9c6069d9a9bfc2f002c2f40a866ba5"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>SteeringAngleFrontAxle_InvalidFlag</b></td></tr>
+<tr class="memdesc:abc9c6069d9a9bfc2f002c2f40a866ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invalid Flag <a class="el" href="group___raw_radar_structs.html#struct_steering_angle_front_axle">SteeringAngleFrontAxle</a> (Unused) <br /></td></tr>
+<tr class="separator:abc9c6069d9a9bfc2f002c2f40a866ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6ee0fdc6b237677dc99720d46d3e932" id="r_aa6ee0fdc6b237677dc99720d46d3e932"><td class="memItemLeft" align="right" valign="top"><a id="aa6ee0fdc6b237677dc99720d46d3e932" name="aa6ee0fdc6b237677dc99720d46d3e932"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>SteeringAngleFrontAxleEventDataQualifier</b></td></tr>
+<tr class="memdesc:aa6ee0fdc6b237677dc99720d46d3e932"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event Data Qualifier <a class="el" href="group___raw_radar_structs.html#struct_steering_angle_front_axle">SteeringAngleFrontAxle</a> (Unused) <br /></td></tr>
+<tr class="separator:aa6ee0fdc6b237677dc99720d46d3e932"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b11f5fbd11cd083492892cab5d94026" id="r_a3b11f5fbd11cd083492892cab5d94026"><td class="memItemLeft" align="right" valign="top"><a id="a3b11f5fbd11cd083492892cab5d94026" name="a3b11f5fbd11cd083492892cab5d94026"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved</b> [20]</td></tr>
+<tr class="separator:a3b11f5fbd11cd083492892cab5d94026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+
+</div>
+</div>
+<a name="struct_characteristic_speed" id="struct_characteristic_speed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#struct_characteristic_speed">&#9670;&#160;</a></span>CharacteristicSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct CharacteristicSpeed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"></div><div class="dynheader">
+Inheritance diagram for CharacteristicSpeed:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="group___raw_radar_structs.png" usemap="#CharacteristicSpeed_map" alt=""/>
+  <map id="CharacteristicSpeed_map" name="CharacteristicSpeed_map">
+<area href="group___raw_radar_structs.html#struct_ars548_msg" alt="Ars548Msg" shape="rect" coords="0,0,127,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr><td colspan="2"><h3>Data Fields</h3></td></tr>
+<tr class="memitem:a2eb43111f65ebcf146193665b55ecd3f" id="r_a2eb43111f65ebcf146193665b55ecd3f"><td class="memItemLeft" align="right" valign="top"><a id="a2eb43111f65ebcf146193665b55ecd3f" name="a2eb43111f65ebcf146193665b55ecd3f"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>CharacteristicSpeedErrAmp</b></td></tr>
+<tr class="memdesc:a2eb43111f65ebcf146193665b55ecd3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error Amplitude of <a class="el" href="group___raw_radar_structs.html#struct_characteristic_speed">CharacteristicSpeed</a> (Unused) <br /></td></tr>
+<tr class="separator:a2eb43111f65ebcf146193665b55ecd3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8235df269ec88edd8d50b16d2b2d9be9" id="r_a8235df269ec88edd8d50b16d2b2d9be9"><td class="memItemLeft" align="right" valign="top"><a id="a8235df269ec88edd8d50b16d2b2d9be9" name="a8235df269ec88edd8d50b16d2b2d9be9"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>QualifierCharacteristicSpeed</b></td></tr>
+<tr class="memdesc:a8235df269ec88edd8d50b16d2b2d9be9"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="group___raw_radar_structs.html#struct_characteristic_speed">CharacteristicSpeed</a> Qualifier (Unused) <br /></td></tr>
+<tr class="separator:a8235df269ec88edd8d50b16d2b2d9be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2875bfafcbfef89b08d9faa533ea9072" id="r_a2875bfafcbfef89b08d9faa533ea9072"><td class="memItemLeft" align="right" valign="top"><a id="a2875bfafcbfef89b08d9faa533ea9072" name="a2875bfafcbfef89b08d9faa533ea9072"></a>
+UINT8&#160;</td><td class="memItemRight" valign="bottom"><b>CharacteristicSpeed</b></td></tr>
+<tr class="memdesc:a2875bfafcbfef89b08d9faa533ea9072"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="group___raw_radar_structs.html#struct_characteristic_speed">CharacteristicSpeed</a> (0 ~ 255 km/h) <br /></td></tr>
+<tr class="separator:a2875bfafcbfef89b08d9faa533ea9072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eb25d2c0342528150d718d559b1689d" id="r_a7eb25d2c0342528150d718d559b1689d"><td class="memItemLeft" align="right" valign="top"><a id="a7eb25d2c0342528150d718d559b1689d" name="a7eb25d2c0342528150d718d559b1689d"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved</b> [8]</td></tr>
+<tr class="separator:a7eb25d2c0342528150d718d559b1689d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Sep 20 2023 for Wellcome to ARS548 SDK by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Fri May 17 2024 for Wellcome to ARS548 SDK by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>
